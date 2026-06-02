@@ -158,7 +158,7 @@ src/
 | POST   | /api/v1/products     | Create Product     |
 | GET    | /api/v1/products     | Get All Products   |
 | GET    | /api/v1/products/:id | Get Single Product |
-| PUT    | /api/v1/products/:id | Update Product     |
+| PATCH  | /api/v1/products/:id | Update Product     |
 | DELETE | /api/v1/products/:id | Delete Product     |
 
 ---
@@ -293,7 +293,7 @@ CLOUDINARY_API_SECRET=YOUR_API_SECRET
 ### Clone Repository
 
 ```bash
-git clone <repository-url>
+git clone <https://github.com/raman-19/E-Commerce>
 ```
 
 ### Install Dependencies
